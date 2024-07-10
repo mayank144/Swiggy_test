@@ -1,6 +1,6 @@
 import { Body, Controller, NotFoundException, Post } from '@nestjs/common';
 import { ArenaService } from './arena.service';
-import { PlayersService } from 'src/players/players.service';
+import { PlayersService } from '../players/players.service';
 import { logD } from '../utils/logger';
 
 const TAG: string = 'ArenaController';
